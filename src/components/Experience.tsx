@@ -7,19 +7,18 @@ const Experience = () => {
   const experiences = [
     {
       company: "TestingXperts (Client: DraftKings)",
-      position: "Business & Systems Analyst",
+      position: "Technical Business Analyst (Software Engineer)",
       location: "Remote / India",
       duration: "Oct 2021 – Jul 2024",
       logo: "DK",
       achievements: [
-        { impact: "Scaled ODR Integrations 3x", description: "Solely managed the Casino ODR integration pipeline, scaling throughput from 150 to over 500 game integrations per sprint." },
-        { impact: "20+ Vendors, Zero Escalations", description: "Served as the main liaison for 20+ third-party vendors across Casino Ops, CasinoHub, and DraftKings operations with minimal client-side escalation; received written commendation for ownership and professionalism." },
-        { impact: "Golden Nugget Launch Support", description: "Designed an iOS asset caching solution to locally store the top 10 most-played game assets with dynamic storage checks, reducing download errors and supporting the live launch of Golden Nugget Online Gaming in two US states." },
-        { impact: "Automated ODR ETL with Python", description: "Automated the ODR data-ingestion process with Python ETL scripts, eliminating a manual handoff step and reducing preprocessing time while deploying assets to AWS S3 via Bamboo CI/CD pipelines." },
-        { impact: "UAT & SQL Data Validation", description: "Developed complex SQL queries across 100+ tables for data validation, debugging, and reporting on payments, transactions, and gameplay; led UAT cycles to ensure financial data accuracy before each release." },
-        { impact: ".NET Backend Across 7 Jurisdictions", description: "Contributed to the Core backend team, maintaining and extending .NET/C# services for payments, bonuses, offers, and compliance across 7 regulated jurisdictions, with on-call rotation every fourth sprint." },
+        { impact: "20+ Vendors, Zero Escalations", description: "Main contact for 20+ game vendors across 7 regulated markets; gathered requirements (BRDs/FRDs, As-Is/To-Be maps) and built a Confluence knowledge base of recurring issues and workarounds, cutting mid-sprint clarification calls by ~50%; zero escalations to DraftKings in 3 years and received written commendation for ownership and professionalism." },
+        { impact: "Scaled Game Integrations 3x", description: "Ran the On-Demand Resource (ODR) game integration pipeline solo across DraftKings Casino and Golden Nugget, writing user stories with acceptance criteria and automating the manual data-ingestion process with Python and SQL scripts; scaled throughput from ~150 to 500+ integrations per sprint." },
+        { impact: "Download Errors Cut 20%+", description: "Identified a recurring game-download failure, wrote the spec and wireframes for an iOS caching fix (top-10 most-played games stored locally) and built the proof of concept solo; adopted into the roadmap and shipped, with DataDog confirming the drop in download errors." },
+        { impact: "Reporting Tool Used by 1,000+ Staff", description: "Rebuilt a company-wide project and resource tracking tool and automated its weekly reporting, replacing manual spreadsheet updates; adopted up to CEO level, cutting roughly 2 hours of daily manual work per project manager." },
+        { impact: ".NET Backend Across 7 Regulated Markets", description: "Maintained and extended .NET/C# services for payments, bonuses, offers and compliance logic across 7 regulated markets; managed release workflows via Bamboo, Azure Pipelines and Git." },
       ],
-      technologies: ["SQL", "Python", "JIRA", "Confluence", ".NET/C#", "Azure Pipelines", "AWS S3", "UAT", "CI/CD", "Vendor Management"]
+      technologies: ["Vendor Management", "SQL", "JIRA", "Confluence", "UAT", "Python", ".NET/C#", "Azure Pipelines", "Bamboo", "AWS S3", "CI/CD"]
     },
     {
       company: "B&Q",

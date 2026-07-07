@@ -5,7 +5,7 @@ import { Mail, Phone, MapPin, Linkedin, ExternalLink } from "lucide-react";
 
 const Contact = () => {
   const contactInfo = [
-    { icon: <Mail className="w-6 h-6" />, label: "Email", value: "anish.rao888@gmail.com", href: "mailto:anish.rao888@gmail.com", primary: true },
+    { icon: <Mail className="w-6 h-6" />, label: "Email", value: "rao.anish.ie@gmail.com", href: "mailto:rao.anish.ie@gmail.com", primary: true },
     { icon: <Phone className="w-6 h-6" />, label: "Phone", value: "(+353) 892681136", href: "tel:+353892681136" },
     { icon: <MapPin className="w-6 h-6" />, label: "Location", value: "Dublin, Ireland", href: "#" }
   ];
@@ -78,20 +78,20 @@ const Contact = () => {
                   <div className="text-sm text-muted-foreground">
                     <p className="font-medium text-primary">Dublin Business School</p>
                     <p>M.Sc. Data Analytics, First Class Honours</p>
-                    <p>Jan 2025 – Jan 2026</p>
+                    <p>Jan 2025 – Feb 2026</p>
                   </div>
                 </div>
                 <div className="space-y-4">
                   <h4 className="font-semibold text-foreground">Interests</h4>
                   <div className="flex flex-wrap gap-2">
-                    {["Business Analysis", "Data Analytics", "Power BI", "Python", "Explainable AI", "Agile Delivery"].map((interest, index) => (
+                    {["Business Analysis", "Product Analysis", "Data Analysis", "Power BI", "SQL", "Python"].map((interest, index) => (
                       <Badge key={index} variant="secondary" className="text-xs">{interest}</Badge>
                     ))}
                   </div>
                 </div>
                 <div className="pt-4">
                   <Button variant="gradient" className="w-full" asChild>
-                    <a href="mailto:anish.rao888@gmail.com"><Mail className="w-4 h-4" />Send Message</a>
+                    <a href="mailto:rao.anish.ie@gmail.com"><Mail className="w-4 h-4" />Send Message</a>
                   </Button>
                 </div>
               </div>

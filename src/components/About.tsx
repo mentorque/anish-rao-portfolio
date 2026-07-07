@@ -7,22 +7,22 @@ const About = () => {
     {
       icon: <ClipboardList className="w-6 h-6" />,
       title: "Business Analysis",
-      skills: ["Agile/Scrum", "Requirements Gathering (BRD/FRD)", "Process Mapping", "User Stories & Acceptance Criteria", "Gap & Root Cause Analysis", "UAT", "Stakeholder Management", "Backlog Prioritization"]
+      skills: ["Requirements Gathering (BRD/FRD)", "Stakeholder Management", "Process Mapping (As-Is/To-Be)", "User Stories & Acceptance Criteria", "UAT", "Gap & Root Cause Analysis", "Agile/Scrum", "Backlog Prioritisation"]
     },
     {
       icon: <BarChart3 className="w-6 h-6" />,
       title: "Data & BI",
-      skills: ["Advanced SQL", "Power BI (DAX, Power Query)", "Tableau", "SSRS/SSIS", "ETL Architecture", "Data Warehousing", "Predictive Analytics", "ML Pipelines", "Explainable AI (SHAP)"]
-    },
-    {
-      icon: <ShieldCheck className="w-6 h-6" />,
-      title: "Programming & Cloud",
-      skills: ["Python", "C#", ".NET", "R", "Django", "AWS S3", "Docker", "Git (Advanced)", "CI/CD Pipelines"]
+      skills: ["Advanced SQL", "Power BI (DAX, Power Query)", "Tableau", "KPI Dashboards & Visual Reporting", "Advanced Excel", "Predictive Analytics", "Explainable AI (SHAP)", "ETL & Data Warehousing"]
     },
     {
       icon: <Wrench className="w-6 h-6" />,
       title: "Tools & Languages",
-      skills: ["JIRA", "Azure DevOps", "Confluence", "DataDog", "Figma", "Advanced Excel", "Cursor", "Claude", "English", "Hindi", "Punjabi", "Kannada", "Spanish (Basic)"]
+      skills: ["JIRA", "Confluence", "Figma", "Lucidchart", "DataDog", "AI-assisted workflows (Copilot, Claude, Cursor)", "English", "Hindi", "Punjabi", "Kannada", "Spanish (Basic)"]
+    },
+    {
+      icon: <ShieldCheck className="w-6 h-6" />,
+      title: "Programming & Cloud",
+      skills: ["Python", "R", "C#", ".NET", "Django", "Git", "CI/CD (Azure Pipelines)", "Docker", "AWS S3"]
     }
   ];
 
@@ -34,8 +34,7 @@ const About = () => {
             About <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Me</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Business Analyst with 3 years bridging technical delivery and stakeholder requirements in the tech
-            and gaming sectors — expert in SQL, Power BI, Python, process mapping, and backlog management.
+            I work where product, operations and engineering meet in the tech and gaming sectors, turning stakeholder needs into requirements, process maps, KPI dashboards and recommendations, using SQL, Power BI, Tableau and Python.
           </p>
         </div>
 
@@ -45,14 +44,10 @@ const About = () => {
               <h3 className="text-2xl font-bold mb-4 text-gradient">Professional Summary</h3>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Proven track record at DraftKings, where I scaled integration throughput from 150 to over 500 per sprint
-                  and managed 20+ vendor relationships across 7 jurisdictions with zero escalations. Experienced in
-                  capturing business and technical requirements, mapping As-Is/To-Be processes, and leading UAT cycles
-                  to ensure financial data accuracy before each release.
+                  At DraftKings I was the main contact for 20+ game vendors across 7 regulated markets, scaling delivery from ~150 to 500+ game integrations per sprint with zero escalations. Day to day that meant gathering requirements (BRDs/FRDs), mapping As-Is/To-Be processes, and running UAT across Web, iOS and Android, using SQL to trace issues before go-live.
                 </p>
                 <p>
-                  Dublin-based and immediately available — combining hands-on technical delivery with structured
-                  stakeholder management across regulated, high-volume environments.
+                  That work led to two promotions and, after the Golden Nugget Online Gaming launch, a written commendation from DraftKings engineering management. With a First Class Honours M.Sc. in Data Analytics; Dublin-based and available immediately.
                 </p>
               </div>
             </CardContent>
@@ -85,7 +80,7 @@ const About = () => {
         <div className="mt-12 text-center">
           <h4 className="text-xl font-semibold mb-4 text-muted-foreground">Core Concepts</h4>
           <div className="flex flex-wrap justify-center gap-3">
-            {["Requirements Engineering", "Vendor Management", "Data Validation", "Process Automation", "Explainable AI", "Cross-functional Delivery"].map((concept, index) => (
+            {["Stakeholder Communication", "Vendor Management", "Process Improvement", "Documentation & Knowledge Sharing", "Cross-Functional Delivery", "Translating Between Technical & Non-Technical Teams"].map((concept, index) => (
               <Badge key={index} variant="outline" className="text-sm px-4 py-2">{concept}</Badge>
             ))}
           </div>

@@ -39,7 +39,7 @@ const Header = () => {
           </nav>
 
           <div className="hidden lg:flex items-center space-x-4">
-            <a href="mailto:anish.rao888@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors">
+            <a href="mailto:rao.anish.ie@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors">
               <Mail size={18} />
             </a>
             <a href="tel:+353892681136" className="text-gray-300 hover:text-blue-400 transition-colors">
@@ -78,7 +78,7 @@ const Header = () => {
               </button>
 
               <div className="flex items-center space-x-4 pt-4 border-t border-gray-800">
-                <a href="mailto:anish.rao888@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors">
+                <a href="mailto:rao.anish.ie@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors">
                   <Mail size={18} />
                 </a>
                 <a href="tel:+353892681136" className="text-gray-300 hover:text-blue-400 transition-colors">

@@ -37,13 +37,11 @@ const Hero = () => {
           <p className="text-xl md:text-2xl text-gray-300 mb-4 font-light">Business Analyst</p>
 
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Business Analyst with 3 years bridging technical delivery and stakeholder requirements in the tech
-            and gaming sectors. Proven at DraftKings scaling integration throughput from 150 to 500+ per sprint
-            while managing 20+ vendor relationships across 7 jurisdictions with zero escalations.
+            Business Analyst with 3 years on DraftKings' real-money casino platforms. Scaled delivery from ~150 to 500+ game integrations per sprint and ran 20+ vendors across 7 regulated US and Canadian markets with zero escalations
           </p>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-12 text-gray-300">
-            <div className="flex items-center gap-2"><span>📧 anish.rao888@gmail.com</span></div>
+            <div className="flex items-center gap-2"><span>📧 rao.anish.ie@gmail.com</span></div>
             <div className="flex items-center gap-2"><span>📱 (+353) 892681136</span></div>
             <div className="flex items-center gap-2"><span>📍 Dublin, Ireland</span></div>
           </div>
