@@ -1,7 +1,7 @@
 const Education = () => {
   const education = [
-    { degree: "M.Sc. Data Analytics, First Class Honours", school: "Dublin Business School, Ireland", period: "Jan 2025 – Jan 2026", logo: "DBS" },
-    { degree: "B.Tech Computer Science", school: "Amity University, India", period: "2017 – 2021", logo: "AU" }
+    { degree: "M.Sc. Data Analytics, First Class Honours", school: "Dublin Business School, Ireland", period: "Jan 2025 – Feb 2026", logo: "DBS" },
+    { degree: "B.Tech Computer Science", school: "Amity University, India", period: "Jun 2017 – Dec 2021", logo: "AU" }
   ];
 
   return (

@@ -4,13 +4,13 @@ import { Award, Calendar } from "lucide-react";
 
 const Certifications = () => {
   const certifications = [
-    { title: "Power BI Data Analyst Associate", issuer: "Microsoft", year: "Certified", icon: <Award className="w-8 h-8" />, gradient: "from-blue-500 to-cyan-500" },
-    { title: "Business Analyst Professional", issuer: "IBM (Coursera)", year: "Certified", icon: <Award className="w-8 h-8" />, gradient: "from-green-500 to-emerald-500" },
-    { title: "Data Analytics Professional", issuer: "Google (Coursera)", year: "Certified", icon: <Award className="w-8 h-8" />, gradient: "from-purple-500 to-pink-500" },
-    { title: "Advanced Tableau", issuer: "Udemy", year: "Certified", icon: <Award className="w-8 h-8" />, gradient: "from-orange-500 to-red-500" },
-    { title: "Statistics for Data Science & Business Analytics", issuer: "Udemy", year: "Certified", icon: <Award className="w-8 h-8" />, gradient: "from-amber-500 to-yellow-500" },
-    { title: "Python Certification", issuer: "NPTEL", year: "Certified", icon: <Award className="w-8 h-8" />, gradient: "from-indigo-500 to-violet-500" },
-    { title: "Forward Leadership & Problem Solving", issuer: "McKinsey", year: "Certified", icon: <Award className="w-8 h-8" />, gradient: "from-rose-500 to-orange-500" },
+    { title: "Business Analyst Professional", issuer: "IBM (Coursera)", year: "2026", icon: <Award className="w-8 h-8" />, gradient: "from-green-500 to-emerald-500" },
+    { title: "Power BI", issuer: "Udemy", year: "2025", icon: <Award className="w-8 h-8" />, gradient: "from-blue-500 to-cyan-500" },
+    { title: "Forward Leadership & Problem Solving", issuer: "McKinsey", year: "2025", icon: <Award className="w-8 h-8" />, gradient: "from-rose-500 to-orange-500" },
+    { title: "Statistics for Data Science & Business Analytics", issuer: "Udemy", year: "2021", icon: <Award className="w-8 h-8" />, gradient: "from-amber-500 to-yellow-500" },
+    { title: "Data Analytics Professional", issuer: "Google (Coursera)", year: "2021", icon: <Award className="w-8 h-8" />, gradient: "from-purple-500 to-pink-500" },
+    { title: "Advanced Tableau", issuer: "Udemy", year: "2021", icon: <Award className="w-8 h-8" />, gradient: "from-orange-500 to-red-500" },
+    { title: "Python Certification", issuer: "NPTEL", year: "2019", icon: <Award className="w-8 h-8" />, gradient: "from-indigo-500 to-violet-500" },
   ];
 
   return (
