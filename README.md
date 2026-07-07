@@ -15,6 +15,6 @@ Works for any role — replace all placeholder text and assets with your own con
 ## Run locally
 
 ```sh
-npm i
+npm install
 npm run dev
 ```
